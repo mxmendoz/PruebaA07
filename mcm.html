@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCM</title>
+    <link href="mcm.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Mínimo Común Múltiplo</h1>
+    <h2>
+      El usuario debe ingresar los dos números y el sistema debe mostrar su MCM.
+    </h2>
+
+    <form id="formulario" action="">
+      <table align="center">
+    
+          <td>
+            <h3>Ingresar el valor 1</h3> <input type="number" name="a" id="a"></input>
+          </td>
+
+              <td>
+            <h3>Ingresar el valor 2</h3> <input type="number" name="b" id="b"></input>
+          </td>  
+        
+      </table>
+
+      <input type="button" value="Operar" onclick="operar();"></input>
+      <input type="button" value="Nuevo" onclick="limpiar();"></input>
+
+      <h2>El MCM es: <spam id="mcm"></spam></h2>
+    </form>
+   
+  </body>
+
+  <script src="mcm.js"></script>
+  
+</html>

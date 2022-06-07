@@ -1,0 +1,52 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    #aaeafb,
+    #90defc,
+    #79d2fe,
+    #68c4ff,
+    #5fb5ff,
+    #4eb7ff,
+    #37b8ff,
+    #0cbaff,
+    #00ccff,
+    #00ddff,
+    #29ecf9,
+    #5ffbf1
+  );
+  text-align: center;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #3669c9;
+  font-size: 50px;
+}
+
+h2 {
+  color: #279f99;
+  font-size: 30px;
+}
+
+h3 {
+  color: #108bc0;
+  font-size: 20px;
+}
+
+input {
+  width: 125px;
+  background-color: #b2cbff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(43, 192, 192);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: blue;
+}

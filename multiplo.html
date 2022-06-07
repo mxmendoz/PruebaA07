@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplos</title>
+    <link href="multiplo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <form class="form" id="formulario">
+        <h1>Datos de Personas</h1>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+        <input type="number" name="edad" id="edad" placeholder="Edad" />
+        <button onclick="ingresarNombres(event)">Ingresar</button>
+
+        <div>
+          <ol id="lista"></ol>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <form class="form">
+        <h1>Números Múltiples</h1>
+        <input type="number" name="n1" id="n1" placeholder="Múltiplo 1" />
+        <input type="number" name="n2" id="n2" placeholder="Múltiplo 2" />
+        <button onclick="Multiplo(event)">Ingresar</button>
+
+        <div>
+          <ol id="lista2"></ol>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <script src="multiplo.js"></script>
+</html>

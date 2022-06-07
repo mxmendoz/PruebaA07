@@ -1,0 +1,49 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    #86f7b5,
+    #70f6c8,
+    #5ef3da,
+    #55f0e9,
+    #57ecf5,
+    #72e9fd,
+    #8ce6ff,
+    #a4e2ff,
+    #c5e0ff,
+    #e1dfff,
+    #f3e1f6,
+    #fbe6ef
+  );
+  text-align: center;
+}
+
+table {
+  padding: 1%;
+  border-color: #28f193;
+  box-shadow: #3669c9;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #3669c9;
+  font-size: 50px;
+}
+
+h2 {
+  color: #279f99;
+  font-size: 30px;
+}
+
+h3 {
+  color: #108bc0;
+  font-size: 15px;
+}
+
+input {
+  width: 60px;
+  background-color: #58c4bf;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}

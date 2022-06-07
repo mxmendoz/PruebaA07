@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMS</title>
+    <link href="ims.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <h1>Métrica de Madurez del Software</h1>
+    <h2>
+      El usuario deberá ingresar la cantidad de módulos agregados, modificados, eliminados y el sistema deberá mostrar el nivel de madurez.
+    </h2>
+
+    <form id="formulario" action="">
+      <table border="1" align="center">
+    
+          <td>
+            <h3>Módulos Versión Actual</h3> <input type="number" name="mt" id="mt"></input>
+          </td>
+    
+          <td>
+            <h3>Módulos Cambiados Versión Actual</h3> <input type="number" name="fc" id="fc"></input>
+          </td>  
+
+          <td>
+            <h3>Módulos Añadidos Versión Actuall</h3> <input type="number" name="fa" id="fa"></input>
+          </td>  
+
+          <td>
+            <h3>Módulos Eliminados Versión Anterior </h3> <input type="number" name="fd" id="fd"></input>
+          </td>  
+        
+      </table>
+
+      <input type="button" value="Operar" onclick="operar();"></input>
+      <input type="button" value="Nuevo" onclick="limpiar();"></input>
+
+      <h2>El IMS es: <spam id="ims"></spam></h2>
+    </form>
+   
+  </body>
+
+  <script src="ims.js"></script>
+  
+</html>
